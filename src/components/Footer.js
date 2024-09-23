@@ -1,6 +1,6 @@
-import React, {useState} from 'react';
+import { faFacebookF, faGithub, faInstagram, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFacebookF, faInstagram, faGithub, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
+import React, { useState } from 'react';
 
 function Footer() {
     const [submit, setSubmit] = useState('Submit Here');
@@ -41,10 +41,10 @@ function Footer() {
             <a href="https://github.com/akankshacodess" aria-label="GitHub">
               <FontAwesomeIcon icon={faGithub} className="text-xl" />
             </a>
-            <a href="#" aria-label="Facebook">
+            <a href="/" aria-label="Facebook">
               <FontAwesomeIcon icon={faFacebookF} className="text-xl" />
             </a>
-            <a href="#" aria-label="Instagram">
+            <a href="/" aria-label="Instagram">
               <FontAwesomeIcon icon={faInstagram} className="text-xl" />
             </a>
             
